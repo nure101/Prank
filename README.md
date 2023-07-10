@@ -13,7 +13,7 @@ Code snippet
 
 ## Notes:
 
-* The `bees.txt` file must be in the same directory as the `project_ready.py` file.
+* The `bees.txt` file must be in the same directory as the `Prank.py` file.
   
 ## Author:
 Nuredin
