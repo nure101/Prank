@@ -1,4 +1,4 @@
-This code uses the Twilio API to send text messages to a specified phone number. The first message is a greeting, and the subsequent messages are the contents of the bees.txt file. The bees.txt file contains a list of bee facts.
+This code uses the Twilio API to send text messages to a specified phone number. The first message is a greeting, and the subsequent messages are the contents of the bees.txt file. The bees.txt file contains the entire bees script for the bees movie 
 
 To run this code:
 Install the Twilio Python SDK:
