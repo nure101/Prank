@@ -1,4 +1,3 @@
-#prject ready 
 import os
 from twilio.rest import Client
 from time import sleep
@@ -14,16 +13,14 @@ client = Client(account_sid, auth_token)
 client.messages.create(
                 to = my_number,
                 from_ = twilio_number,
-            # max char Twilio can send: 72
-                body = "This is your good friend Nure. perpare for some trolling"
+                body = " Greatings. This is your good friend ____. prepare for some trolling"
             )
 
-with open('/Users/nuremo/Desktop/projects/project_everbridge/bees.txt','r') as f:
+with open('/Path/To/Your/bees.txt','r') as f:
     f = f.readlines()
     for i in f:
         client.messages.create(
                 to = my_number,
                 from_ = twilio_number,
-            # max char Twilio can send: 72
                 body = i
             )
